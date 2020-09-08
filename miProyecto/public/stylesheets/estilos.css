@@ -8,6 +8,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #ebebeb;
 }
 
 header{
@@ -65,7 +66,6 @@ i{
 
 
 main{
-    background-color: #ebebeb;
     padding: 20px;
     align-items: center;
 }
@@ -80,6 +80,7 @@ article {
 }
 
 footer{
+    background-color: white;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -105,12 +106,14 @@ footer{
     position: absolute;
     color: #666;
     background-color: white;
-    right: 0;
+    right: 5px;
     top: 10px;
 }
 
 .barra-busqueda input{
     margin: 0;
+    border-radius: 5px;
+    border: none;
 }
 
 .menu-desplegable{

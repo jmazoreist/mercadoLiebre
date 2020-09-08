@@ -1,4 +1,35 @@
 /* CSS de Formularios */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main{
+    margin: auto;
+    text-align: center;
+}
+
+.contenedor-login{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.contenedor-login h3{
+    color: black;
+}
+
+.contenedor-registro{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
 
 form{
     text-align: left;
@@ -9,7 +40,11 @@ input {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border: none;
+    border-bottom: solid 1px #808080;
+}
+
+#fotoUsuario{
     border: none;
 }
 
@@ -75,7 +110,6 @@ form button a:visited{
     }
 
     input{
-        width: 314px;
         display: block;
     }
 
