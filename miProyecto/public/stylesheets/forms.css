@@ -31,10 +31,13 @@ main{
     background-color: #fff;
 }
 
+.contenedor-registro h3{
+    color: black;
+    text-align: center;
+}
+
 form{
     text-align: left;
-    display: flex;
-
 }
 
 input {
